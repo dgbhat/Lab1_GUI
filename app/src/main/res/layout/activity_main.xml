@@ -10,33 +10,50 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.datta.lab1_gui.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="12dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <Button
+
+            android:id="@+id/button_fontsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.13"
+            android:text="Change FontSize" />
+
+        <Button
+            android:id="@+id/button_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.13"
+            android:text="Change Color" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:text="Hello World!"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <Button
-        android:text="Change Color"
+        android:id="@+id/button_nextScreen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button_color"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp" />
-
-    <Button
-        android:text="Change FontSize"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_fontsize"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp" />
+        android:layout_alignStart="@+id/linearLayout"
+        android:text="Next Screen" />
 
 
 </RelativeLayout>

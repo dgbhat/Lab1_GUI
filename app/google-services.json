@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "91311933254",
+    "firebase_url": "https://my-first-firebase-projec-a566b.firebaseio.com",
+    "project_id": "my-first-firebase-projec-a566b",
+    "storage_bucket": "my-first-firebase-projec-a566b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91311933254:android:9e2592d7f61ecbb2",
+        "android_client_info": {
+          "package_name": "com.example.datta.lab1_gui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91311933254-fdn3p74f7i84ft2fn71k7m39ldc1aucj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-xmxpAciN2kAl8jT0D-ySmbBzV9MTIM0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
