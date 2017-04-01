@@ -4,59 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.datta.lab1_gui.Main2Activity">
+    tools:context="com.example.datta.lab1_gui.LoginActivity">
 
     <LinearLayout
         android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:textAlignment="center">
+        android:orientation="vertical">
 
         <EditText
-            android:id="@+id/email"
-            android:hint="Email"
+            android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Email"
             android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/password"
-            android:hint="Password"
+            android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/buttonSignup"
+            android:id="@+id/buttonSignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Sign Up" />
+            android:text="SIGN IN" />
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textViewSignup"
+            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:textAlignment="center"
-            android:orientation="vertical">
+            android:text="OR - SIGNUP HERE" />
 
+        <Button
+            android:id="@+id/buttonSignup"
 
-            <TextView
-                android:id="@+id/textViewSignin"
-                android:layout_width="match_parent"
-                android:textAlignment="center"
-                android:layout_height="wrap_content"
-                android:text="OR - SIGNIN BELOW" />
-
-            <Button
-                android:id="@+id/buttonSignin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sign In"/>
-        </LinearLayout>
-
-
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
